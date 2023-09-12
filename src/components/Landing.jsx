@@ -1,4 +1,5 @@
 import landingImg from '../assets/images/landing-img.png';
+import curvyDesktop from '../assets/images/bg-curvy-desktop.svg';
 
 function Landing() {
   return (
@@ -22,6 +23,12 @@ function Landing() {
           </div>
           <a href="#" className="btn w-[280px] h-[60px] rounded-[30px] flex justify-center items-center mx-auto text-white font-medium text-2xl"> Get Started</a>
         </div>
+      </div>
+      <div className="w-full h-[200px]">
+        <img
+          src={curvyDesktop}
+          className="w-full h-full"
+        />
       </div>
     </section>
   )
