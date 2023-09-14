@@ -28,7 +28,7 @@ function Features() {
   return (
     <section className="pb-[150px]">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-[100px] w-[865px] max-w-full mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[865px] max-w-full mx-auto">
           {items.map(item => (
             <FeatureBox 
               key={item.title}
