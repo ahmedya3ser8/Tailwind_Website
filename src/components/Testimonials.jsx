@@ -1,27 +1,30 @@
 import { useState } from "react";
 import bgQuotes from '../assets/images/bg-quotes.png';
 import TestimonialBox from "./TestimonialBox";
+import profile1 from '../assets/images/profile-1.jpg';
+import profile2 from '../assets/images/profile-2.jpg';
+import profile3 from '../assets/images/profile-3.jpg';
 
 function Testimonials() {
   const [testData, setTestData] = useState([
     {
       id: 1,
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aliquid. Cum quis animi repudiandae dolorum dolor qui, ducimus minus. Pariatur laboriosam quae numquam illo nisi quod! Quis, reprehenderit. Debitis, officiis!",
-      image: "profile-1.jpg",
+      image: profile1,
       position: "Founder & CEO, Huddle",
       name: "Ahmed",
     },
     {
       id: 2,
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aliquid. Cum quis animi repudiandae dolorum dolor qui, ducimus minus. Pariatur laboriosam quae numquam illo nisi quod! Quis, reprehenderit. Debitis, officiis!",
-      image: "profile-2.jpg",
+      image: profile2,
       position: "Founder & CEO, Huddle",
       name: "Mohamed",
     },
     {
       id: 3,
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aliquid. Cum quis animi repudiandae dolorum dolor qui, ducimus minus. Pariatur laboriosam quae numquam illo nisi quod! Quis, reprehenderit. Debitis, officiis!",
-      image: "profile-3.jpg",
+      image: profile3,
       position: "Founder & CEO, Huddle",
       name: "Eman",
     },
